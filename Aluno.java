@@ -34,11 +34,11 @@ public class Aluno {
     public void MediaAluno ()
     {   
 
-        if (nota_p1 > nota_p2 && nota_p3 > nota_p2) {
+        if (nota_p1 >= nota_p2 && nota_p3 >= nota_p2) {
            Media = (nota_p1+nota_p3)/2;
                     
         }
-        else if (nota_p1 > nota_p3 && nota_p2 > nota_p3) {
+        else if (nota_p1 >= nota_p3 && nota_p2 >= nota_p3) {
             Media = (nota_p1+nota_p2)/2;
             
         }
